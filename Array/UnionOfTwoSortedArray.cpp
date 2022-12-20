@@ -46,4 +46,50 @@ int main(){
     
     unionOfTwoArray(a,b,n,m);
 }
+
+
+//This is the the method which can handle duplication
+
+//find the union of two array;
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void unionOfTwoArray(int arr[],int brr[],int n,int m){
+  set<int>st;
+  for(int i=0;i<n;i++){
+      st.insert(arr[i]);
+  }
+  for(int i=0;i<m;i++){
+      st.insert(brr[i]);
+  }
+  
+  for(auto itr:st){
+      cout<<itr<<" ";
+  }cout<<endl;
+  
+   
+}
+int main(){
+    int n,m;
+    cin>>n>>m;
+    int a[100];
+    int b[100];
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    
+    for(int i=0;i<m;i++){
+        cin>>b[i];
+    }
+    
+    unionOfTwoArray(a,b,n,m);
+}
+    
+    
+
+
+
+
+
     
