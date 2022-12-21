@@ -1,5 +1,5 @@
 //fiding the intersection of two sorted std::array 
-//note it do not handle the duplication
+
 
 #include<iostream>
 using namespace std;
