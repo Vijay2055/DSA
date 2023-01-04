@@ -28,6 +28,12 @@ int main(){
     }
 }
 
+
+
+
+
+
+
 //checking polindrome without caring lowerCase and upperCase
 #include<iostream>
 using namespace std;
