@@ -10,3 +10,28 @@ public:
         
     }
 };
+
+
+//Another approach to reversing a string
+
+#include<iostream>
+using namespace std;
+
+void reverseString(string name){
+    int s=0;
+    int e=name.length()-1;
+    cout<<e<<endl;
+    while(s<=e){
+        swap(name[s],name[e]);
+        s++;e--;
+    }
+    cout<<name<<endl;
+}
+
+
+int main(){
+    string name;
+    cin>>name;
+    reverseString(name);
+  
+}
