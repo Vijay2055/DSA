@@ -1,0 +1,15 @@
+ //program for exponent
+ //exponent means the number of time a num is multiplied by itself
+ #include"stdio.h"
+ #include<math.h>
+int main()
+{
+   int b, e;
+   printf("Enter the base\n");
+   scanf("%d",&b);
+   printf("Enter the exponent\n");
+   scanf("%d",&e);
+   
+   printf("value %f",pow(b,e));
+   
+}  
